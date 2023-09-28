@@ -110,15 +110,24 @@ button {
 }
 
 select {
-    border-width: 0px 0px 2px 0px;
+    border-width: 0px 0px 2px 0px !important;
     font-family: 'Lato Regular';
     font-size: 18px;
     color: #1a1a1a;
+    background-color: transparent;
+    border-radius: 0px !important;
+    border-color: #1a1a1a !important;
+
 }
 
 input:focus-visible,
-select:focus-visible {
+select:focus-visible, input:focus,
+select:focus {
     outline: none;
+    border-width: 0px 0px 2px 0px;
+    border-radius: 0px;
+    border-color: #4d4d4d !important;
+    box-shadow: none !important;
 }
 
 .formTopics {
@@ -126,7 +135,9 @@ select:focus-visible {
 }
 
 input {
-    border-width: 0px 0px 2px 0px;
+    border-width: 0px 0px 2px 0px !important;
+    border-color: #4d4d4d !important;
+    border-radius: 0px !important;
 
 }
 
@@ -324,7 +335,7 @@ nav .container-lg {
 
 }
 
-h1 {
+.mainTitle {
     font-family: 'Lato Bold';
     font-size: 42px;
     text-decoration: underline;
