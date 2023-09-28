@@ -1,0 +1,880 @@
+.loginTitle {
+    font-family: 'Playfair Display';
+    font-size: 42px;
+    font-weight: 400;
+    color: #4d4d4d;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.socialHeader {
+    font-size: 35px;
+    color: #BC731E;
+    margin-right: 25px;
+    margin-top: 40px;
+    transition: opacity 0.3s ease;
+}
+
+.socialHeader:hover {
+    color: #4d4d4d;
+}
+
+.loginBackground {
+    background-image: url('../img/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    height: 790px;
+}
+
+.logoLogin {
+    margin-top: 235px;
+    mix-blend-mode: multiply;
+}
+
+.loginBox {
+    box-shadow: 0px 0px 10px 0px #888888;
+    position: relative;
+    top: -105px;
+    background-color: white;
+    padding-top: 75px;
+    padding-bottom: 105px;
+}
+
+.formTitle {
+    font-family: 'Lato Bold';
+    font-size: 20px;
+    color: #1a1a1a;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+label,
+p,
+input {
+    font-family: 'Lato Regular';
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+button {
+    font-family: 'Lato Bold';
+    font-size: 18px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.button-container {
+    margin-bottom: 75px;
+}
+
+#joinButton,
+#loginButton {
+    border: solid 3px #4d4d4d;
+    color: #4d4d4d;
+    background-color: transparent;
+    width: 100%;
+    padding: 20px 65px 20px 65px;
+    min-width: 135px;
+}
+
+#joinButton:hover,
+#loginButton:hover,
+#joinButton.activeButton,
+#loginButton.activeButton {
+    border: none;
+    background-color: #BC731E;
+    color: white;
+}
+
+.triangle {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #BC731E;
+    opacity: 0;
+}
+
+.activeButtonContainer .triangle {
+    opacity: 1;
+}
+
+select {
+    border-width: 0px 0px 2px 0px;
+    font-family: 'Lato Regular';
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+input:focus-visible,
+select:focus-visible {
+    outline: none;
+}
+
+.formTopics {
+    margin-top: 30px;
+}
+
+input {
+    border-width: 0px 0px 2px 0px;
+
+}
+
+.goldBtn {
+    color: white;
+    background-color: #BC731E;
+    border: none;
+    margin-top: 65px;
+    padding: 20px 65px 20px 65px;
+
+}
+
+.goldBtn:hover {
+    color: #BC731E;
+    background-color: white;
+    border: solid 2px #BC731E;
+}
+
+.check {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.loginFooter {
+    position: relative;
+    top: -10px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 70px 0px;
+
+}
+
+.footerLogo {
+    width: 385px;
+}
+
+.socialFooter {
+    font-size: 35px;
+    color: white;
+    margin-right: 25px;
+    margin-top: 40px;
+    transition: opacity 0.3s ease;
+}
+
+.socialFooter:hover {
+    opacity: 0.5;
+}
+
+.linksFooter {
+    color: white;
+    font-family: 'Lato Regular';
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.linksFooterBlock {
+    margin-top: 40px;
+}
+
+.navspace {
+    height: 100px;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.headerLogo {
+    height: 45px;
+}
+
+.headerCarousel {
+    justify-content: start;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: 2px solid #BC731E;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    background-color: #BC731E;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0px -11px 12px 7px #1a1a1a
+}
+
+.nav-link {
+    font-family: 'Lato Regular';
+    font-size: 18px;
+    color: #BC731E;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.nav-link:hover,
+.nav-link:focus {
+    font-family: 'Lato Bold';
+    color: #BC731E;
+    text-decoration: underline 5px;
+    text-underline-offset: 200%;
+
+}
+
+nav .container-lg {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url('../icons/openmenu.svg');
+
+}
+
+.fa-power-off {
+    font-size: 18px;
+    color: #BC731E;
+    padding-right: 1rem;
+
+}
+
+.dropdown-divider {
+    border-top: 1px solid #BC731E;
+    margin: 0px;
+}
+
+.submenuNav {
+    border: none;
+    padding: 0px;
+    border-radius: 0;
+}
+
+.submenuNav[data-bs-popper] {
+    top: 200%;
+    left: -100%;
+}
+
+.dropdownNav {
+    font-family: 'Lato Regular';
+    font-size: 18px;
+    color: #BC731E;
+    height: 100%;
+    padding: 1rem 3rem;
+}
+
+.dropdownNav:focus,
+.dropdownNav:hover {
+    font-family: 'Lato Bold';
+    color: white;
+    background-color: #BC731E;
+}
+
+.dropdownNav:focus .fa-power-off,
+.dropdownNav:hover .fa-power-off {
+    color: white;
+}
+
+.arrow {
+    display: none;
+    background-image: url(../icons/arrow.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 13px;
+    width: 8px;
+}
+
+.nav-footer,
+.navFooter-link {
+    list-style-type: none;
+    margin-right: 20px;
+    color: white;
+    font-family: 'Lato Light';
+    text-decoration: none;
+}
+
+.navFooter-link:hover,
+.nav-footer .active {
+    font-family: 'Lato Bold';
+
+}
+
+h1 {
+    font-family: 'Lato Bold';
+    font-size: 42px;
+    text-decoration: underline;
+    text-decoration-color: #BC731E;
+    text-underline-offset: 16px;
+}
+
+.sectionTitle {
+    margin-top: 125px;
+    margin-bottom: 95px;
+}
+
+h2 {
+    font-family: 'Lato Bold';
+    font-size: 24px;
+    color: #1a1a1a;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 72px;
+    color: #4d4d4d;
+    margin-bottom: 60px;
+}
+
+.article {
+    margin-bottom: 95px;
+}
+
+.articlePreview {
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+.seeMagazine {
+    padding: 20px 85px;
+    background-color: #BC731E;
+    color: white;
+    border: none;
+}
+
+.seeMagazine:hover {
+    background-color: transparent;
+    border: 2px solid #BC731E;
+    color: #BC731E;
+}
+
+.previousCarousel,
+.nextCarousel {
+    background-color: transparent;
+    border: none;
+}
+
+#carouselDesktopBenefits .carousel-indicators {
+    margin-bottom: -60px;
+    justify-content: end;
+}
+
+.footerUsers {
+    margin-top: 135px;
+}
+
+.carouselDesktop {
+    display: block;
+}
+
+.carouselMobile {
+    display: none;
+}
+
+#carouselHeaderDesktop {
+    display: block;
+}
+
+#carouselHeaderMobile {
+    display: none;
+}
+
+.magazineText {
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.downloadButton {
+    border: none;
+    background-color: transparent;
+}
+
+.fa-download {
+    font-size: 24px;
+    color: #BC731E;
+}
+
+.magazine {
+    margin-bottom: 95px;
+}
+
+.magazine:hover img {
+    box-shadow: 0px 0px 8px 0px #1a1a1a;
+    cursor: pointer;
+}
+
+.magazine:hover i,
+.magazine:hover i {
+    color: #4d4d4d;
+}
+
+.filterTitle {
+    width: 100%;
+    font-family: 'Lato Bold';
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.filterDropdown {
+    font-family: 'Lato Regular';
+    font-size: 20px;
+    border-color: #4d4d4d;
+    border-width: 0px 0px 2px 0px;
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    color: #1a1a1a;
+}
+
+.filter {
+    width: 100%;
+
+    border-radius: 0px;
+    transform: translate3d(0px, 60px, 0px) !important;
+    filter: drop-shadow(2px -1px 5px #4d4d4d87);
+    border: none;
+}
+
+.filter::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 80%;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #ffffff;
+
+}
+
+.filterItem {
+    font-family: 'Lato Regular';
+    font-size: 18px;
+    color: #BC731E;
+    padding: 15px 20px;
+}
+
+.filterItem:hover,
+.filterItem:focus,
+.filterItem.active,
+.filterItem:active {
+    font-family: 'Lato Bold';
+    background-color: #BC731E;
+    color: #ffffff;
+}
+
+.filterBlock {
+    margin-bottom: 75px;
+}
+
+.line {
+    background-color: #BC731E;
+    color: #BC731E;
+    stroke-width: 2px;
+    height: 2px;
+    opacity: 1;
+}
+
+.expirationDate {
+    font-family: 'Lato Regular';
+    font-size: 20px;
+    color: #4d4d4d;
+    margin-bottom: 25px;
+}
+
+.couponMoreInfo {
+    font-family: 'Lato Bold';
+    font-size: 20px;
+    color: #BC731E;
+}
+
+.couponMoreInfoIcon {
+    width: 40px;
+    height: 2px;
+    background: #BC731E;
+    margin-right: 10px;
+    position: relative;
+    transition: .5s ease-in-out;
+
+}
+
+.couponMoreInfoIcon::after {
+    background: #BC731E;
+    content: "";
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 40px;
+    transition: .5s ease-in-out;
+}
+
+.couponMoreInfo:hover .couponMoreInfoIcon::after {
+    transform: rotate(90deg);
+
+}
+
+.couponText {
+    max-height: 140px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.couponList {
+    margin-bottom: 100px;
+}
+
+.partner {
+    position: relative;
+    padding: 50px;
+    margin-bottom: 65px;
+}
+
+.partner::before {
+    content: "";
+    height: 0;
+    padding-bottom: 100%;
+    float: left;
+}
+
+.partner::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.partner:hover {
+    box-shadow: 0px 0px 8px 0px #1a1a1a;
+}
+.desktopCoupon{
+    display: block;
+    margin-bottom: 45px;
+}
+.mobileCoupon{
+    display: none;
+    margin-bottom: 25px;
+}
+.couponTextBlock{
+    margin-bottom: 25px;
+}
+.backButton{
+    border: solid 2px #4d4d4d;
+    color: #4d4d4d;
+    background-color: transparent;
+    width: 100%;
+    padding: 20px 45px;
+}
+.backButton:hover{
+    color: #fff;
+    background-color: #4d4d4d;
+}
+iframe{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+.tableHead{
+    background-color: #BC731E !important;
+    color: #fff !important;
+    font-family: 'Lato Bold' !important;
+    font-size: 20px;
+    padding: 20px 0px !important;
+}
+th{
+    border-right: 1px solid #fff;
+}
+th:last-child{
+    border: none;
+}
+td{
+    border-top: none !important;
+    border-bottom: none !important;
+    border-right: 1px solid #BC731E;
+}
+td:last-child{
+    border: none;
+}
+.tableText{
+    font-family: 'Lato Regular' !important;
+    padding: 15px 0px !important;
+    font-size: 18px;
+    color: #1a1a1a !important;
+}
+.aboutToExpire{
+    color: #C92323 !important;
+}
+.used{
+    color: #BC731E !important;
+}
+.invalid{
+    color: #818080 !important;
+    background-color: #DEDDDD !important;
+}
+@media screen and (max-width: 992px) {
+    .backButton{
+        margin-top: 20px;
+    }
+    .desktopCoupon{
+        display: none;
+    }
+    .mobileCoupon{
+        display: block;
+    }
+    .expirationDate {
+        font-size: 18px;
+    }
+
+    .couponMoreInfo {
+        font-size: 16px;
+    }
+
+    .couponImage {
+        margin-bottom: 30px;
+    }
+
+    .line {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .expirationDate {
+        margin-bottom: 30px;
+    }
+
+    .filterBlock {
+        margin-bottom: 40px;
+    }
+
+    .filterTitle {
+        margin-bottom: 10px;
+    }
+
+    .filterDropdown {
+        margin-bottom: 30px;
+    }
+
+    .magazine {
+        margin-bottom: 50px;
+    }
+
+    .fa-download {
+        font-size: 20px;
+    }
+
+    #carouselHeaderDesktop {
+        display: none;
+    }
+
+    #carouselHeaderMobile {
+        display: block;
+    }
+
+    #carouselMobileBenefits .carousel-indicators {
+        margin-bottom: -30px;
+        justify-content: end;
+    }
+
+    .carouselDesktop {
+        display: none;
+    }
+
+    .carouselMobile {
+        display: block;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        height: 12px;
+        width: 12px;
+    }
+
+    .seeMagazine {
+        width: 100%;
+    }
+
+    .article {
+        margin-bottom: 45px;
+    }
+
+    h1 {
+        line-height: 50px
+    }
+
+    .sectionTitle {
+        margin-top: 50px;
+        margin-bottom: 45px;
+    }
+
+    h1 {
+        font-size: 26px;
+
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        margin-bottom: 20px;
+        margin-top: 40px;
+        font-size: 40px;
+    }
+
+    .navbar-collapse {
+        position: relative;
+        top: 90px;
+        background-color: white;
+        width: 100%;
+    }
+
+    .navbar-brand,
+    .navbar-toggler {
+        margin: 0 3rem;
+    }
+
+    .nav-link {
+        padding: 15px 0;
+    }
+
+    .navbarMobile {
+        width: 100%;
+        height: 100px;
+        top: 0px;
+        position: absolute;
+    }
+
+    .nav-link {
+        padding: 1rem 3rem;
+        border-bottom: 1px solid #BC731E;
+
+    }
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link.show,
+    .nav-link:hover,
+    .nav-link:focus {
+        color: white;
+        text-decoration: none;
+        background-color: #BC731E;
+    }
+
+    .dropdownNav {
+        padding: 1rem 3rem;
+    }
+
+    .dropdownNav:focus,
+    .dropdownNav:hover {
+        font-family: 'Lato Bold';
+        color: #BC731E;
+        background-color: transparent;
+    }
+
+    .dropdownNav:hover {
+        color: #BC731E;
+        visibility: visible;
+        font-size: 18px;
+        opacity: 1;
+    }
+
+    .dropdownNav:focus .arrow,
+    .dropdownNav:hover .arrow {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+
+    .dropdownNav:focus .fa-power-off,
+    .dropdownNav:hover .fa-power-off {
+        color: #BC731E;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .socialHeader {
+        font-size: 25px;
+        margin-right: 10px;
+    }
+
+    .loginBackground {
+        background-image: url('../img/bannerMobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+        border: none;
+        background-color: transparent;
+    }
+
+    .loginBox {
+        top: -10px;
+        background-color: white;
+        padding-top: 50px;
+        padding-bottom: 75px;
+    }
+
+    .logoLogin {
+        margin-top: 50px;
+    }
+
+    .loginTitle {
+        font-size: 28px;
+        margin-bottom: 75px;
+    }
+
+    .formTitle {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .button-container {
+        margin-bottom: 35px;
+    }
+
+    #joinButton,
+    #loginButton {
+        padding: 15px 30px 15px 30px;
+    }
+
+    label,
+    p,
+    input,
+    select {
+        font-size: 16px;
+    }
+
+    label {
+        margin-bottom: 15px;
+    }
+
+    .footerLogo {
+        width: 215px;
+    }
+}

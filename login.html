@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube Exclusiva</title>
+    <link rel="stylesheet" href="public/css/bootstrap.css">
+    <link rel="stylesheet" href="public/css/fonts.css">
+    <link rel="stylesheet" href="public/css/style.css">
+
+</head>
+
+<body>
+    <header class=" loginBackground">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <i class="fa-brands fa-facebook-f socialHeader"><a href="https://pt-br.facebook.com"></a></i>
+                    <i class="fa-brands fa-instagram socialHeader"><a href="https://www.instagram.com"></a></i>
+                    <i class="fa-brands fa-linkedin-in socialHeader"><a href="https://www.linkedin.com"></a></i>
+                    <i class="fa-brands fa-x-twitter socialHeader"><a href="https://twitter.com"></a></i>
+
+                </div>
+            </div>
+            <div class="row logoLogin">
+                <img class="col-6" src="public/icons/goldLogo.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="container-md ">
+        <div class="row d-flex">
+            <div class="col-10 w-100 loginBox">
+                <h1 class="loginTitle">Já pertence ao Clube Exclusiva?</h1>
+                <div class="col-lg-6 col-10 mx-auto">
+                    <div class="row d-flex justify-content-between">
+                        <div id="joinContainer" class="button-container activeButtonContainer col-6">
+                            <button id="joinButton" class="activeButton">Quero pertencer!</button>
+                            <div class="triangle"></div>
+                        </div>
+                        <div id="loginContainer" class="button-container col-6">
+                            <button id="loginButton">Sim, já pertenço!</button>
+                            <div class="triangle"></div>
+                        </div>
+                    </div>
+
+
+                    <form action="" id="cadastrar">
+                        <p class="">Se você ainda não pertence ao Clube Exclusiva, por favor preencha as informações
+                            abaixo.</p>
+                        <h2 class="formTitle">1. Endereço</h2>
+                        <div class="formTopics">
+                            <label class="w-100" for="condominio">Escolha o seu Condomínio*</label>
+                            <select id="condominio" class="w-100" name="condominio">
+                                <option value="#">Condomínio 1</option>
+                                <option value="#">Condomínio 2</option>
+                                <option value="#">Condomínio 3</option>
+                                <option value="#">Condomínio 4</option>
+                            </select>
+                        </div>
+                        <div class="formTopics">
+                            <label class="w-100" for="complemento">Complemento*</label>
+                            <input class="w-100" type="text" name="complemento" id="complemento"
+                                placeholder="Quadra X, Rua X, nº999">
+                        </div>
+                        <h2 class="formTitle">2. Dados Pessoais</h2>
+                        <div class="formTopics">
+                            <label class="w-100" for="nome">Nome*</label>
+                            <input class="w-100" type="text" name="nome" id="nome" placeholder="Nome">
+                        </div>
+                        <div class="formTopics">
+                            <label class="w-100" for="sobrenome">Sobrenome*</label>
+                            <input class="w-100" type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+                        </div>
+                        <div class="row">
+                            <div class="formTopics col-md-6">
+                                <label class="w-100" for="cpf">CPF*</label>
+                                <input class="w-100" type="text" name="cpf" id="cpf" placeholder="Sobrenome">
+                            </div>
+                            <div class="formTopics col-md-6">
+                                <label class="w-100" for="nascimento">Data de Nascimento*</label>
+                                <input class="w-100" type="date" name="nascimento" id="nascimento">
+                            </div>
+                        </div>
+                        <div class="formTopics">
+                            <label class="w-100" for="email">Email*</label>
+                            <input class="w-100" type="text" name="email" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="formTopics">
+                            <label class="w-100" for="whatsapp">WhatsApp*</label>
+                            <input class="w-100" type="text" name="whatsapp" id="whatsapp" placeholder="Sobrenome">
+                        </div>
+                        <div class="formTopics">
+                            <label class="w-100" for="senha">Senha*</label>
+                            <input class="w-100" type="password" name="sobrenome" id="senha" placeholder="Senha">
+                        </div>
+                        <div class="formTopics">
+                            <label class="w-100" for="confirmSenha">Confirmação de Senha*</label>
+                            <input class="w-100" type="password" name="confirmSenha" id="confirmSenha"
+                                placeholder="Confirmação de Senha">
+                        </div>
+                        <div class="formTopics d-flex">
+                            <input class="check" type="checkbox" name="termos" id="termos">
+                            <label class="" for="termos">Aceito os Termos e Condições de Uso deste programa.*</label>
+                        </div>
+                        <button class="goldBtn" type="submit">Entrar para o Clube Exclusiva</button>
+                    </form>
+
+                    <form id="login" action="" method="post">
+                        <p class="">Se você já pertence ao Clube Exclusiva, por favor faça o seu login abaixo.</p>
+                        <h2 class="formTitle">1. Formulário de Login</h2>
+                        <div class="formTopics">
+                            <label class="w-100" for="emailLogin">Login*</label>
+                            <input class="w-100" type="email" name="emailLogin" id="emailLogin" placeholder="Login">
+                        </div>
+                        <div class="formTopics">
+                            <label class="w-100" for="senhaLogin">Senha*</label>
+                            <input class="w-100" type="password" name="senhaLogin" id="senhaLogin" placeholder="Senha">
+                        </div>
+                        <button class="goldBtn text-center" type="submit">Login no Clube Exclusiva</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="loginFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center justify-content-md-start align-items-center">
+                    <img class="footerLogo" src="public/icons/whiteLogo.svg" alt="">
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div>
+                        <i class="fa-brands fa-facebook-f socialFooter"><a href="https://pt-br.facebook.com"></a></i>
+                        <i class="fa-brands fa-instagram socialFooter"><a href="https://www.instagram.com"></a></i>
+                        <i class="fa-brands fa-linkedin-in socialFooter"><a href="https://www.linkedin.com"></a></i>
+                        <i class="fa-brands fa-x-twitter socialFooter"><a href="https://twitter.com"></a></i>
+                    </div>
+                    <div class="linksFooterBlock">
+                        <a class="linksFooter" href="#">Copyright 2023 © Revista Exclusiva.</a>
+                        <a class="linksFooter" href="#">Política de Privacidade</a>
+                    </div>
+                </div>
+            </div>
+
+    </footer>
+    <script>
+        const registerForm = document.getElementById('cadastrar');
+        const loginForm = document.getElementById('login');
+        const joinButton = document.getElementById('joinButton');
+        const loginButton = document.getElementById('loginButton');
+        const joinContainer = document.getElementById('joinContainer')
+        const loginContainer = document.getElementById('loginContainer')
+        loginForm.style.display = 'none';
+
+        joinButton.addEventListener('click', function () {
+            registerForm.style.display = 'block';
+            loginForm.style.display = 'none';
+            joinContainer.classList.toggle('activeButtonContainer');
+            joinButton.classList.toggle('activeButton');
+            loginContainer.classList.remove('activeButtonContainer');
+            loginButton.classList.remove('activeButton');
+        });
+
+        loginButton.addEventListener('click', function () {
+            registerForm.style.display = 'none';
+            loginForm.style.display = 'block';
+
+            loginContainer.classList.toggle('activeButtonContainer');
+            loginButton.classList.toggle('activeButton');
+            joinContainer.classList.remove('activeButtonContainer');
+            joinButton.classList.remove('activeButton');
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/3161aac4fb.js" crossorigin="anonymous"></script>
+    <script src="public/js/script.js"></script>
+</body>
+
+</html>

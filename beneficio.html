@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube Exclusiva</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="public/css/bootstrap.css">
+    <link rel="stylesheet" href="public/css/fonts.css">
+    <link rel="stylesheet" href="public/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <div class="navspace"></div>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-lg">
+                <div class="navbarMobile d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand col-lg-3" href="#">
+                        <img class="headerLogo" src="public/icons/goldLogo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="revista.html">A Revista</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="beneficios.html">Benefícios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="parceiros.html">Parceiros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Área Pessoal
+                            </a>
+                            <ul class="dropdown-menu submenuNav">
+                                <li><a class="dropdown-item dropdownNav" href="meusBeneficios.html">
+                                        <div class="arrow"></div>Meus Benefícios
+                                    </a></li>
+                                <li><a class="dropdown-item dropdownNav" href="instrucoes.html">
+                                        <div class="arrow"></div>Como Utilizar
+                                    </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item dropdownNav" href="#"><i
+                                            class="fa-solid fa-power-off"></i>Sair</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+
+        <!-- carrossel -->
+        <div id="carouselHeaderDesktop" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators headerCarousel">
+                <button type="button" data-bs-target="#carouselHeaderDesktop" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselHeaderDesktop" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselHeaderDesktop" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselHeaderDesktop" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselHeaderDesktop" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselHeaderDesktop" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="public/img/BannerHome.png" class="d-block w-100" alt="Banner 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/1600x570?text=Banner+2" class="d-block w-100" alt="Banner 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/1600x570?text=Banner+3" class="d-block w-100" alt="Banner 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/1600x570?text=Banner+4" class="d-block w-100" alt="Banner 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/1600x570?text=Banner+5" class="d-block w-100" alt="Banner 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/1600x570?text=Banner+6" class="d-block w-100" alt="Banner 6">
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselHeaderMobile" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators headerCarousel">
+                <button type="button" data-bs-target="#carouselHeaderMobile" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselHeaderMobile" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselHeaderMobile" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselHeaderMobile" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselHeaderMobile" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselHeaderMobile" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="public/img/bannerHomeMobile.png" class="d-block w-100" alt="Banner 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/360x195?text=Banner+2" class="d-block w-100" alt="Banner 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/360x195?text=Banner+3" class="d-block w-100" alt="Banner 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/360x195?text=Banner+4" class="d-block w-100" alt="Banner 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/360x195?text=Banner+5" class="d-block w-100" alt="Banner 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/360x195?text=Banner+6" class="d-block w-100" alt="Banner 6">
+                </div>
+            </div>
+        </div>
+        <!-- carrossel -->
+    </header>
+
+    <main class="container">
+        <!-- benefícios -->
+
+        <div class="row sectionTitle ">
+            <h1 class="col-12">Maria, ative aqui o seu benefício!</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-12 desktopCoupon">
+                <img class="w-100" src="public/img/cupomDesktop.png" alt="">
+            </div>
+            <div class="col-12 mobileCoupon">
+                <img class="w-100" src="public/img/cupomMobile.png" alt="">
+            </div>
+        </div>
+        <div class="row couponTextBlock">
+            <h2 class="couponTitle">Benefício 30% de desconto em Loja de Roupas Femininas</h2>
+            <hr class="col-12 col-lg-8 line">
+            <div class="expirationDate">
+                Expira a 25/09/2023
+            </div>
+            <div class="couponText">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Eget nullam non nisi est. Arcu odio ut sem nulla pharetra diam
+                    sit. Ut porttitor leo a diam sollicitudin tempor. Tempor nec feugiat nisl pretium fusce id velit
+                    ut tortor. Egestas tellus rutrum tellus pellentesque eu. Tincidunt lobortis feugiat vivamus at
+                    augue eget arcu dictum. Ut tellus elementum sagittis vitae. Amet purus gravida quis blandit
+                    turpis cursus in hac habitasse. Odio morbi quis commodo odio aenean. Maecenas ultricies mi eget
+                    mauris pharetra et ultrices neque ornare. Pretium viverra suspendisse potenti nullam. Interdum
+                    consectetur libero id faucibus nisl tincidunt eget. Platea dictumst quisque sagittis purus sit
+                    amet. Eu augue ut lectus arcu.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="benefitsButtons d-flex flex-column flex-md-row justify-md-content-between">
+                <a class="order-md-1 order-2 col-md-4 col-12" href="#"><button class="backButton">Voltar para os
+                        Benefícios</button></a>
+                <a class="order-md-2 order-1 col-md-4 col-12" href="#"><button class="seeMagazine w-100">Ativar agora!</button></a>
+            </div>
+
+
+        </div>
+        <!-- benefícios -->
+
+    </main>
+
+    <footer class="footerUsers d-flex align-items-center">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-6 d-flex justify-content-center justify-content-lg-start align-items-center">
+                    <img class="footerLogo" src="public/icons/whiteLogo.svg" alt="">
+                </div>
+                <div class="col-lg-6 text-center text-lg-end">
+                    <div>
+                        <i class="fa-brands fa-facebook-f socialFooter"><a href="https://pt-br.facebook.com"></a></i>
+                        <i class="fa-brands fa-instagram socialFooter"><a href="https://www.instagram.com"></a></i>
+                        <i class="fa-brands fa-linkedin-in socialFooter"><a href="https://www.linkedin.com"></a></i>
+                        <i class="fa-brands fa-x-twitter socialFooter"><a href="https://twitter.com"></a></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row d-flex">
+                <ul class="col-lg-6 d-none d-lg-flex flex-row align-items-end">
+                    <li class="nav-footer">
+                        <a class="navFooter-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-footer">
+                        <a class="navFooter-link" href="revista.html">A Revista</a>
+                    </li>
+                    <li class="nav-footer">
+                        <a class="navFooter-link active" aria-current="page" href="beneficios.html">Benefícios</a>
+                    </li>
+                    <li class="nav-footer">
+                        <a class="navFooter-link" href="parceiros.html">Parceiros</a>
+                    </li>
+                    <li class="nav-footer">
+                        <a class="navFooter-link" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Área Pessoal
+                        </a>
+
+                    </li>
+                </ul>
+                <div
+                    class="d-flex flex-column col-lg-6 linksFooterBlock align-items-center justify-content-end align-items-lg-end">
+                    <a class="linksFooter" href="#">Copyright 2023 © Revista Exclusiva.</a>
+                    <a class="linksFooter" href="#">Política de Privacidade</a>
+                </div>
+            </div>
+
+    </footer>
+
+    <!-- script -->
+    <script src="public/js/bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/3161aac4fb.js" crossorigin="anonymous"></script>
+    <script src="public/js/script.js"></script>
+    <!-- script -->
+</body>
+
+</html>

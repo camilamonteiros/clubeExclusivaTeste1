@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube Exclusiva</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="public/css/bootstrap.css">
+    <link rel="stylesheet" href="public/css/fonts.css">
+    <link rel="stylesheet" href="public/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <div class="navspace"></div>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-lg">
+                <div class="navbarMobile d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand col-lg-3" href="#">
+                        <img class="headerLogo" src="public/icons/goldLogo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="revista.html">A Revista</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="beneficios.html">Benefícios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="parceiros.html">Parceiros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active" aria-current="page" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Área Pessoal
+                            </a>
+                            <ul class="dropdown-menu submenuNav">
+                                <li><a class="dropdown-item dropdownNav" href="meusBeneficios.html">
+                                        <div class="arrow"></div>Meus Benefícios
+                                    </a></li>
+                                <li><a class="dropdown-item dropdownNav" href="instrucoes.html">
+                                        <div class="arrow"></div>Como Utilizar
+                                    </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item dropdownNav" href="#"><i
+                                            class="fa-solid fa-power-off"></i>Sair</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+
+        <!-- carrossel -->
+        <div id="carouselHeaderDesktop" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators headerCarousel">
+                <button type="button" data-bs-target="#carouselHeaderDesktop" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselHeaderDesktop" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselHeaderDesktop" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselHeaderDesktop" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselHeaderDesktop" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselHeaderDesktop" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="public/img/BannerHome.png" class="d-block w-100" alt="Banner 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/1600x570?text=Banner+2" class="d-block w-100" alt="Banner 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/1600x570?text=Banner+3" class="d-block w-100" alt="Banner 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/1600x570?text=Banner+4" class="d-block w-100" alt="Banner 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/1600x570?text=Banner+5" class="d-block w-100" alt="Banner 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/1600x570?text=Banner+6" class="d-block w-100" alt="Banner 6">
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselHeaderMobile" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators headerCarousel">
+                <button type="button" data-bs-target="#carouselHeaderMobile" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselHeaderMobile" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselHeaderMobile" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselHeaderMobile" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselHeaderMobile" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselHeaderMobile" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="public/img/bannerHomeMobile.png" class="d-block w-100" alt="Banner 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/360x195?text=Banner+2" class="d-block w-100" alt="Banner 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/360x195?text=Banner+3" class="d-block w-100" alt="Banner 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/360x195?text=Banner+4" class="d-block w-100" alt="Banner 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/360x195?text=Banner+5" class="d-block w-100" alt="Banner 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://placehold.co/360x195?text=Banner+6" class="d-block w-100" alt="Banner 6">
+                </div>
+            </div>
+        </div>
+        <!-- carrossel -->
+    </header>
+
+    <main class="container">
+        <!-- meus benefícios -->
+
+        <div class="row sectionTitle ">
+            <h1 class="col-12">Maria, estes são os seus benefícios!</h1>
+        </div>
+
+        <!-- opções de filtragem -->
+        <div class="row d-flex justify-content-lg-between filterBlock">
+            <div class="col-12 col-lg-4">
+                <div class="filterTitle">Filtrar:</div>
+
+                <div class="d-lg-flex column-gap-3">
+                    <div class="col-12 col-lg-6 btn-group">
+                        <button class="filterDropdown d-flex justify-content-between align-items-center" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Parceiros <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu filter">
+                            <li><a class="dropdown-item filterItem" href="#">Menu item</a></li>
+                            <li><a class="dropdown-item filterItem" href="#">Menu item</a></li>
+                            <li><a class="dropdown-item filterItem" href="#">Menu item</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-lg-6 btn-group">
+                        <button class="filterDropdown d-flex justify-content-between align-items-center" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Status <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu filter">
+                            <li><a class="dropdown-item filterItem" href="#">Menu item</a></li>
+                            <li><a class="dropdown-item filterItem" href="#">Menu item</a></li>
+                            <li><a class="dropdown-item filterItem" href="#">Menu item</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-lg-4">
+                <div class="filterTitle text-lg-end">Ordenar por:</div>
+
+                <div class="d-flex justify-content-end">
+                    <div class=" col-12 col-lg-6 btn-group">
+                        <button class="filterDropdown d-flex justify-content-between align-items-center" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Ordenar <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu filter">
+                            <li><a class="dropdown-item filterItem active" aria-current="true" href="#">Menu item</a>
+                            </li>
+                            <li><a class="dropdown-item filterItem" href="#">Menu item</a></li>
+                            <li><a class="dropdown-item filterItem" href="#">Menu item</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- opções de filtragem -->
+
+        <table class="table table-striped table-hover">
+            <thead>
+              <tr class="tableHead">
+                <th class="tableHead text-center" scope="col">Nº Benefício</th>
+                <th class="tableHead text-center" scope="col">Benefício</th>
+                <th class="tableHead text-center" scope="col">Empresa</th>
+                <th class="tableHead text-center" scope="col">Validade</th>
+                <th class="tableHead text-center" scope="col">Status</th>
+              </tr>
+            </thead>
+            <tbody  class="text-center">
+              <tr>
+                <td class="tableText aboutToExpire" scope="row">111111</td>
+                <td class="tableText aboutToExpire">30% de desconto</td>
+                <td class="tableText aboutToExpire">Empresa 1</td>
+                <td class="tableText aboutToExpire">26/10/23</td>
+                <td class="tableText aboutToExpire">Ativado</td>
+              </tr>
+              <tr>
+                <td class="tableText aboutToExpire" scope="row">222222</td>
+                <td class="tableText aboutToExpire">30% de desconto</td>
+                <td class="tableText aboutToExpire">Empresa 2</td>
+                <td class="tableText aboutToExpire">27/10/23</td>
+                <td class="tableText aboutToExpire">Ativado</td>
+              </tr>
+              <tr>
+                <td class="tableText" scope="row">333333</td>
+                <td class="tableText">30% de desconto</td>
+                <td class="tableText">Empresa 3</td>
+                <td class="tableText">28/10/23</td>
+                <td class="tableText">Ativado</td>
+              </tr>
+              <tr>
+                <td class="tableText" scope="row">444444</td>
+                <td class="tableText">30% de desconto</td>
+                <td class="tableText">Empresa 4</td>
+                <td class="tableText">29/10/23</td>
+                <td class="tableText">Ativado</td>
+              </tr>
+              <tr>
+                <td class="tableText" scope="row">555555</td>
+                <td class="tableText">30% de desconto</td>
+                <td class="tableText">Empresa 5</td>
+                <td class="tableText">30/10/23</td>
+                <td class="tableText">Ativado</td>
+              </tr>
+              <tr>
+                <td class="tableText" scope="row">666666</td>
+                <td class="tableText">30% de desconto</td>
+                <td class="tableText">Empresa 6</td>
+                <td class="tableText">31/10/23</td>
+                <td class="tableText">Ativado</td>
+              </tr>
+              <tr>
+                <td class="tableText" scope="row">777777</td>
+                <td class="tableText">30% de desconto</td>
+                <td class="tableText">Empresa 7</td>
+                <td class="tableText">01/11/23</td>
+                <td class="tableText">Ativado</td>
+              </tr>
+              <tr>
+                <td class="tableText" scope="row">888888</td>
+                <td class="tableText">30% de desconto</td>
+                <td class="tableText">Empresa 8</td>
+                <td class="tableText">02/11/23</td>
+                <td class="tableText">Ativado</td>
+              </tr>
+              <tr>
+                <td class="tableText" scope="row">999999</td>
+                <td class="tableText">30% de desconto</td>
+                <td class="tableText">Empresa 9</td>
+                <td class="tableText">03/11/23</td>
+                <td class="tableText">Ativado</td>
+              </tr>
+              <tr>
+                <td class="tableText" scope="row">101010</td>
+                <td class="tableText">30% de desconto</td>
+                <td class="tableText">Empresa 10</td>
+                <td class="tableText">04/11/23</td>
+                <td class="tableText">Ativado</td>
+              </tr>
+              <tr>
+                <td class="tableText used" scope="row">101101</td>
+                <td class="tableText used">30% de desconto</td>
+                <td class="tableText used">Empresa 11</td>
+                <td class="tableText used">05/11/23</td>
+                <td class="tableText used">Utilizado</td>
+              </tr>
+              <tr>
+                <td class="tableText used" scope="row">121212</td>
+                <td class="tableText used">30% de desconto</td>
+                <td class="tableText used">Empresa 12</td>
+                <td class="tableText used">06/11/23</td>
+                <td class="tableText used">Utilizado</td>
+              </tr>
+              <tr>
+                <td class="tableText used" scope="row">131313</td>
+                <td class="tableText used">30% de desconto</td>
+                <td class="tableText used">Empresa 13</td>
+                <td class="tableText used">07/11/23</td>
+                <td class="tableText used">Utilizado</td>
+              </tr>
+              <tr>
+                <td class="tableText used" scope="row">141414</td>
+                <td class="tableText used">30% de desconto</td>
+                <td class="tableText used">Empresa 14</td>
+                <td class="tableText used">08/11/23</td>
+                <td class="tableText used">Utilizado</td>
+              </tr>
+              <tr>
+                <td class="tableText used" scope="row">151515</td>
+                <td class="tableText used">30% de desconto</td>
+                <td class="tableText used">Empresa 15</td>
+                <td class="tableText used">09/11/23</td>
+                <td class="tableText used">Utilizado</td>
+              </tr>
+              <tr>
+                <td class="tableText invalid" scope="row">161616</td>
+                <td class="tableText invalid">30% de desconto</td>
+                <td class="tableText invalid">Empresa 16</td>
+                <td class="tableText invalid">25/07/23</td>
+                <td class="tableText invalid">Inválido</td>
+              </tr>
+              <tr>
+                <td class="tableText invalid" scope="row">171717</td>
+                <td class="tableText invalid">30% de desconto</td>
+                <td class="tableText invalid">Empresa 17</td>
+                <td class="tableText invalid">24/07/23</td>
+                <td class="tableText invalid">Inválido</td>
+              </tr>
+              <tr>
+                <td class="tableText invalid" scope="row">181818</td>
+                <td class="tableText invalid">30% de desconto</td>
+                <td class="tableText invalid">Empresa 18</td>
+                <td class="tableText invalid">23/07/23</td>
+                <td class="tableText invalid">Inválido</td>
+              </tr>
+              <tr>
+                <td class="tableText invalid" scope="row">191919</td>
+                <td class="tableText invalid">30% de desconto</td>
+                <td class="tableText invalid">Empresa 19</td>
+                <td class="tableText invalid">22/07/23</td>
+                <td class="tableText invalid">Inválido</td>
+              </tr>
+              <tr>
+                <td class="tableText invalid" scope="row">202020</td>
+                <td class="tableText invalid">30% de desconto</td>
+                <td class="tableText invalid">Empresa 20</td>
+                <td class="tableText invalid">21/07/23</td>
+                <td class="tableText invalid">Inválido</td>
+              </tr>
+            </tbody>
+          </table>
+
+
+        <!-- meus benefícios -->
+
+    </main>
+
+
+    <footer class="footerUsers d-flex align-items-center">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-6 d-flex justify-content-center justify-content-lg-start align-items-center">
+                    <img class="footerLogo" src="public/icons/whiteLogo.svg" alt="">
+                </div>
+                <div class="col-lg-6 text-center text-lg-end">
+                    <div>
+                        <i class="fa-brands fa-facebook-f socialFooter"><a href="https://pt-br.facebook.com"></a></i>
+                        <i class="fa-brands fa-instagram socialFooter"><a href="https://www.instagram.com"></a></i>
+                        <i class="fa-brands fa-linkedin-in socialFooter"><a href="https://www.linkedin.com"></a></i>
+                        <i class="fa-brands fa-x-twitter socialFooter"><a href="https://twitter.com"></a></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row d-flex">
+                <ul class="col-lg-6 d-none d-lg-flex flex-row align-items-end">
+                    <li class="nav-footer">
+                        <a class="navFooter-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-footer">
+                        <a class="navFooter-link" href="revista.html">A Revista</a>
+                    </li>
+                    <li class="nav-footer">
+                        <a class="navFooter-link" href="beneficios.html">Benefícios</a>
+                    </li>
+                    <li class="nav-footer">
+                        <a class="navFooter-link" href="parceiros.html">Parceiros</a>
+                    </li>
+                    <li class="nav-footer">
+                        <a class="navFooter-link active" aria-current="page" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Área Pessoal
+                        </a>
+
+                    </li>
+                </ul>
+                <div
+                    class="d-flex flex-column col-lg-6 linksFooterBlock align-items-center justify-content-end align-items-lg-end">
+                    <a class="linksFooter" href="#">Copyright 2023 © Revista Exclusiva.</a>
+                    <a class="linksFooter" href="#">Política de Privacidade</a>
+                </div>
+            </div>
+
+    </footer>
+
+    <!-- script -->
+    <script src="public/js/bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/3161aac4fb.js" crossorigin="anonymous"></script>
+    <script src="public/js/script.js"></script>
+    <!-- script -->
+</body>
+
+</html>
