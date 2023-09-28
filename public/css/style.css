@@ -341,6 +341,7 @@ nav .container-lg {
     text-decoration: underline;
     text-decoration-color: #BC731E;
     text-underline-offset: 16px;
+    line-height: 60px;
 }
 
 .sectionTitle {
